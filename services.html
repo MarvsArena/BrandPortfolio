@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore MarvsTech services across web development, app development, digital support, branding, and product management.">
+    <meta property="og:title" content="MarvsTech Services | Digital Solutions Built With Structure">
+    <meta property="og:description" content="Everything your business needs to build, manage, and grow online with premium execution and a clear operating structure.">
+    <title>Our Services | MarvsTech</title>
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("marvstech-theme");
+          document.documentElement.setAttribute("data-theme", savedTheme === "light" ? "light" : "dark");
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-shell">
+          <a class="brand-link" href="index.html" aria-label="MarvsTech home">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+          </a>
+
+          <nav class="nav-desktop" aria-label="Primary navigation">
+            <ul class="nav-list">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li><a class="nav-link active" href="services.html">Services</a></li>
+              <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              <li><a class="nav-link" href="about.html">About</a></li>
+              <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-tools">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+              <span class="theme-icon theme-icon--sun" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M2.8 12h2.4M18.8 12h2.4M5.2 18.8l1.7-1.7M17.1 6.9l1.7-1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <span class="theme-icon theme-icon--moon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M20 14.2A8.5 8.5 0 0 1 9.8 4 8.5 8.5 0 1 0 20 14.2Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <a class="btn nav-cta" href="contact.html">Start a Project</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-drawer">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <div class="mobile-drawer" id="mobile-drawer">
+        <div class="mobile-panel">
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link" href="index.html">Home</a></li>
+            <li><a class="mobile-nav-link active" href="services.html">Services</a></li>
+            <li><a class="mobile-nav-link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="mobile-nav-link" href="about.html">About</a></li>
+            <li><a class="mobile-nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <a class="btn" href="contact.html">Start a Project</a>
+        </div>
+      </div>
+
+      <main>
+        <section class="page-hero">
+          <div class="container">
+            <div class="section-header">
+              <div class="eyebrow" data-reveal>What We Offer</div>
+              <h1 data-reveal data-reveal-delay="1">Our Services</h1>
+              <p class="lead" data-reveal data-reveal-delay="2">Everything your business needs to build, manage, and grow online.</p>
+            </div>
+          </div>
+        </section>
+
+        <nav class="services-sticky-nav" aria-label="Service sections">
+          <div class="container services-pill-row">
+            <a class="service-pill active" href="#service-web" data-service-pill>Web Dev</a>
+            <a class="service-pill" href="#service-app" data-service-pill>App Dev</a>
+            <a class="service-pill" href="#service-va" data-service-pill>VA</a>
+            <a class="service-pill" href="#service-social" data-service-pill>Social Media</a>
+            <a class="service-pill" href="#service-project" data-service-pill>Project Mgmt</a>
+            <a class="service-pill" href="#service-branding" data-service-pill>Branding</a>
+          </div>
+        </nav>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-dark" id="service-web" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">01</div>
+              <div class="eyebrow">01 / 06 - Web Development</div>
+              <h2>Websites That Work as Hard as You Do</h2>
+              <p class="service-subheading">We don't just build websites - we build digital systems structured around your business goals.</p>
+              <p>Every website MarvsTech delivers is designed with purpose: clean architecture, clear user flow, and the kind of attention to detail that turns visitors into clients. Whether you need a simple product showcase or a full e-commerce platform with admin controls, we build it with the same precision.</p>
+            </div>
+
+            <div class="package-grid grid-3">
+              <article class="card tier-card" data-reveal data-reveal-delay="1">
+                <span class="pill">Starter</span>
+                <h3>Get Online Fast</h3>
+                <p>A clean, static product showcase with WhatsApp ordering integration. Built for small businesses and solo entrepreneurs who need a professional online presence without the complexity of a full store.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Product display pages</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WhatsApp order button</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Mobile responsive</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Contact section</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Basic SEO setup</span></li>
+                </ul>
+                <p class="note-line">Ideal for: fashion, food, crafts, and product-based small businesses</p>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card tier-card popular" data-reveal data-reveal-delay="2">
+                <span class="popular-badge">Popular</span>
+                <span class="pill">Pro</span>
+                <h3>Sell Online Seamlessly</h3>
+                <p>A fully functional online store with integrated payment processing. Customers browse, add to cart, and pay - all on your site. Orders arrive directly in your inbox.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Everything in Starter</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Payment gateway integration</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cart and checkout system</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Order email notifications</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Product categories and filters</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enhanced UI</span></li>
+                </ul>
+                <p class="note-line">Ideal for: growing product businesses ready to accept online payments</p>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card tier-card" data-reveal data-reveal-delay="3">
+                <span class="pill">Elite</span>
+                <h3>Full Control, Full Power</h3>
+                <p>An enterprise-grade e-commerce platform with a custom admin dashboard, giving you complete visibility and control over your store, products, inventory, and orders - all in one place.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Everything in Pro</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Custom admin dashboard</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Inventory management</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Order management system</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>User account functionality</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Analytics integration</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Full backend system</span></li>
+                </ul>
+                <p class="note-line">Ideal for: established businesses scaling their digital operations</p>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+            </div>
+
+            <div class="package-grid grid-2 cta-spacer">
+              <article class="card info-card" data-reveal>
+                <span class="pill">Service Websites</span>
+                <h3>Professional Service Presence</h3>
+                <p>A polished website that showcases what you offer and makes it easy for potential clients to reach you. Includes service pages, an about section, and a booking or inquiry form connected to WhatsApp or your email.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Service display pages</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About section</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Booking via form or WhatsApp</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Contact page</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Mobile responsive</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>SEO basics</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card info-card" data-reveal data-reveal-delay="1">
+                <span class="pill">Service Websites</span>
+                <h3>Full Booking &amp; Management System</h3>
+                <p>Everything in the Pro tier, plus a complete backend booking system that lets you manage appointments, client inquiries, and availability - all from your own admin dashboard.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Everything in Pro</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Backend booking system</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Admin dashboard</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Client management</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Appointment scheduling logic</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+            </div>
+
+            <div class="package-grid grid-2 cta-spacer">
+              <article class="card mini-card" data-reveal>
+                <span class="pill">Portfolio Websites</span>
+                <h3>Built for Creatives &amp; Professionals</h3>
+                <p>A clean, structured portfolio site that presents your work with clarity and style. Designed for photographers, designers, writers, consultants, and personal brands who need their digital presence to speak for them.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Work or project showcase</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About section</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Contact form</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Downloadable CV option</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Mobile responsive</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card mini-card" data-reveal data-reveal-delay="1">
+                <span class="pill">Custom Websites</span>
+                <h3>Something Entirely Your Own</h3>
+                <p>For ideas that don't fit a template. Custom websites are built from scratch around your specific requirements - unique features, custom integrations, and functionality designed exclusively for your use case.</p>
+                <p class="note-line">Scope and pricing discussed per project.</p>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Start a Conversation</a></div>
+              </article>
+            </div>
+
+            <div class="note-block cta-spacer" data-reveal>
+              <p>Hosting and domain registration are not included in any package. These are third-party costs that will be discussed and handled separately.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-soft" id="service-app" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">02</div>
+              <div class="eyebrow">02 / 06 - App Development</div>
+              <h2>Custom Apps Built for Real Problems</h2>
+              <p class="service-subheading">We build mobile applications that are functional, scalable, and designed around how your users actually behave.</p>
+              <p>App development at MarvsTech is not templated or rushed. We take time to understand your idea, your users, and your business model - then we build an application that solves a real problem with precision. From concept to deployment, every stage is managed and communicated clearly.</p>
+            </div>
+
+            <div class="feature-promo-grid">
+              <article class="card" data-reveal data-reveal-delay="1">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 12h24v24H12zM18 6h12v6H18z" stroke="currentColor" stroke-width="2"/></svg>
+                <h4>Custom Architecture</h4>
+                <p>Built from scratch around your requirements, not adapted from a boilerplate.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="2">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 9c7.7 0 14 6.3 14 14S31.7 37 24 37 10 30.7 10 23 16.3 9 24 9Z" stroke="currentColor" stroke-width="2"/><path d="M24 18v5l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <h4>User-Centred Design</h4>
+                <p>UI and UX designed with your end user's experience as the primary concern.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="3">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M10 33h28M14 27l7-7 5 5 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Scalable Foundation</h4>
+                <p>Built to grow with your business, not just to work today.</p>
+              </article>
+              <article class="card" data-reveal>
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 8 8 16v16l16 8 16-8V16L24 8Z" stroke="currentColor" stroke-width="2"/><path d="M24 24v16M8 16l16 8 16-8" stroke="currentColor" stroke-width="2"/></svg>
+                <h4>Full Project Management</h4>
+                <p>Every stage tracked, communicated, and delivered on schedule.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="1">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="8" y="10" width="12" height="24" rx="2" stroke="currentColor" stroke-width="2"/><rect x="28" y="14" width="12" height="20" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+                <h4>Cross-Platform Ready</h4>
+                <p>Discussed per project based on your target audience and platform needs.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="2">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 10 10 16v10c0 7.5 5 12 14 16 9-4 14-8.5 14-16V16L24 10Z" stroke="currentColor" stroke-width="2"/><path d="m18 25 4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Post-Launch Support</h4>
+                <p>Handover includes documentation and a usage walkthrough.</p>
+              </article>
+            </div>
+
+            <div class="card info-card cta-spacer" data-reveal>
+              <h3>Process Timeline</h3>
+              <div class="timeline">
+                <div class="timeline-step"><strong>1</strong><div><h4>Discovery</h4><p>Understanding your idea, goals, and users.</p></div></div>
+                <div class="timeline-step"><strong>2</strong><div><h4>Planning</h4><p>Feature mapping, tech stack selection, timeline.</p></div></div>
+                <div class="timeline-step"><strong>3</strong><div><h4>Design</h4><p>Wireframes and UI design for approval.</p></div></div>
+                <div class="timeline-step"><strong>4</strong><div><h4>Development</h4><p>Build phase with milestone updates.</p></div></div>
+                <div class="timeline-step"><strong>5</strong><div><h4>Testing</h4><p>QA across devices and use cases.</p></div></div>
+                <div class="timeline-step"><strong>6</strong><div><h4>Delivery</h4><p>Launch, handover, and documentation.</p></div></div>
+              </div>
+              <p class="note-line">Every application is unique. Pricing is based on scope, complexity, and timeline - reach out and let's have an honest conversation about your idea.</p>
+              <div class="cta-spacer"><a class="btn" href="contact.html">Discuss Your App Idea</a></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-dark" id="service-va" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">03</div>
+              <div class="eyebrow">03 / 06 - Virtual Assistance</div>
+              <h2>Your Business, Running Smoothly</h2>
+              <p class="service-subheading">Reliable, professional virtual support so you can focus on what actually grows your business.</p>
+              <p>Running a business means juggling more than one person should. MarvsTech's virtual assistance service takes the operational weight off your hands - email management, scheduling, customer communication, and day-to-day admin handled with the same precision we bring to every engagement. You stay focused on your vision. We handle the rest.</p>
+            </div>
+
+            <div class="support-grid">
+              <article class="card info-card" data-reveal data-reveal-delay="1">
+                <h3>Services Offered</h3>
+                <ul class="check-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Email management and inbox organisation</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Calendar and scheduling management</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Customer support and response handling</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Data entry and document organisation</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research and reporting</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Administrative task coordination</span></li>
+                </ul>
+              </article>
+
+              <article class="card info-card" data-reveal data-reveal-delay="2">
+                <h3>How It Works</h3>
+                <div class="timeline">
+                  <div class="timeline-step"><strong>1</strong><div><p>Discovery call to understand your workload and priorities.</p></div></div>
+                  <div class="timeline-step"><strong>2</strong><div><p>Agreed task list and working hours documented.</p></div></div>
+                  <div class="timeline-step"><strong>3</strong><div><p>Weekly reporting and check-ins.</p></div></div>
+                  <div class="timeline-step"><strong>4</strong><div><p>Flexible - scale up or down as your needs change.</p></div></div>
+                </div>
+                <p class="note-line">Available on an hourly basis or as a monthly package depending on your needs and workload.</p>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-soft" id="service-social" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">04</div>
+              <div class="eyebrow">04 / 06 - Social Media Management</div>
+              <h2>A Consistent Presence That Actually Converts</h2>
+              <p class="service-subheading">We don't just post content - we build an online presence that speaks to your audience and drives real engagement.</p>
+              <p>Consistency is everything on social media. MarvsTech handles your content creation, scheduling, and engagement so your brand shows up professionally and regularly - without you having to think about it. Every piece of content is planned around your brand tone, your audience, and your business goals.</p>
+            </div>
+
+            <div class="package-grid grid-3">
+              <article class="card tier-card" data-reveal>
+                <span class="pill">Starter</span>
+                <h3>Starter</h3>
+                <p>For businesses getting their social presence established.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>8 posts per month</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Content creation</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Basic captions and hashtags</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>1 platform</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monthly performance summary</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card tier-card popular" data-reveal data-reveal-delay="1">
+                <span class="popular-badge">Popular</span>
+                <span class="pill">Growth</span>
+                <h3>Growth</h3>
+                <p>For businesses ready to build serious momentum.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>16 posts per month</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Content creation and planning</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Captions, hashtags, and engagement</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Up to 2 platforms</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Story content</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Bi-weekly performance review</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+
+              <article class="card tier-card" data-reveal data-reveal-delay="2">
+                <span class="pill">Premium</span>
+                <h3>Premium</h3>
+                <p>For businesses treating social media as a primary growth channel.</p>
+                <ul class="includes-list">
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>24+ posts per month</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Full content strategy</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>All content formats posts, stories, reels</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Up to 3 platforms</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Audience engagement management</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Weekly performance reports</span></li>
+                  <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monthly strategy review</span></li>
+                </ul>
+                <div class="cta-spacer"><a class="btn" href="contact.html">Get a Quote</a></div>
+              </article>
+            </div>
+
+            <div class="note-block cta-spacer" data-reveal>
+              <p>All packages are flexible. If your needs fall between tiers, we'll build a custom package around your goals.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-dark" id="service-project" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">05</div>
+              <div class="eyebrow">05 / 06 - Project &amp; Product Management</div>
+              <h2>Execution Is Everything</h2>
+              <p class="service-subheading">Ideas are common. Structured, accountable execution is rare - that's what we bring.</p>
+              <p>MarvsTech's project and product management service is built for business owners, founders, and teams who have the vision but need someone to make sure it actually gets done. We bring structure to your workflow, accountability to your team, and clarity to every stage of your project - from planning to delivery.</p>
+            </div>
+
+            <div class="service-copy-blocks">
+              <article class="service-copy-block" data-reveal data-reveal-delay="1">
+                <h4>Task Planning &amp; Structuring</h4>
+                <p>We break your project into clear, manageable tasks with defined owners, deadlines, and priorities. No more vague to-do lists - every action is mapped and tracked.</p>
+              </article>
+              <article class="service-copy-block" data-reveal data-reveal-delay="2">
+                <h4>Workflow Design</h4>
+                <p>We design the systems your team works within - project boards, communication protocols, reporting structures, and review cycles that keep everyone aligned and moving.</p>
+              </article>
+              <article class="service-copy-block" data-reveal data-reveal-delay="3">
+                <h4>Team Coordination</h4>
+                <p>Acting as the operational hub, we coordinate across team members and departments, ensuring nothing falls through the cracks and blockers are resolved before they become delays.</p>
+              </article>
+              <article class="service-copy-block" data-reveal data-reveal-delay="4">
+                <h4>Product Development Support</h4>
+                <p>For founders building a digital product, we provide structured support from concept through launch - feature prioritisation, sprint planning, stakeholder updates, and delivery management.</p>
+              </article>
+            </div>
+
+            <div class="note-block cta-spacer" data-reveal>
+              <p>Who it's for: Startups, growing businesses, and teams that need structure without the overhead of a full-time operations hire.</p>
+            </div>
+
+            <div class="cta-spacer" data-reveal>
+              <a class="btn" href="contact.html">Let's Talk About Your Project</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section section-soft" id="service-branding" data-service-section>
+          <div class="container">
+            <div class="section-header service-rich-copy" data-reveal>
+              <div class="service-number">06</div>
+              <div class="eyebrow">06 / 06 - Branding</div>
+              <h2>Build a Brand, Not Just a Business</h2>
+              <p class="service-subheading">Your brand is more than a logo - it's the full picture of how the world perceives you online.</p>
+              <p>MarvsTech's branding service is for founders and business owners who want to build something that lasts. We work with you to define your brand direction, establish your digital identity, and set up the structures that ensure your brand shows up consistently across every platform and touchpoint.</p>
+            </div>
+
+            <div class="feature-promo-grid">
+              <article class="card" data-reveal data-reveal-delay="1">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 7 8 16l16 9 16-9-16-9ZM8 28l16 9 16-9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                <h4>Brand Direction &amp; Strategy</h4>
+                <p>We start with the foundations - who you are, who you're talking to, and how you want to be perceived. This informs everything else.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="2">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M14 12h20v24H14z" stroke="currentColor" stroke-width="2"/><path d="M20 20h8M20 26h8M20 32h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <h4>Visual Identity Setup</h4>
+                <p>Working with your existing identity or building from scratch - logo guidance, color palette, typography, and brand guidelines documented for consistency.</p>
+              </article>
+              <article class="card" data-reveal data-reveal-delay="3">
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="10" width="34" height="20" rx="4" stroke="currentColor" stroke-width="2"/><path d="M15 37h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <h4>Digital Presence Setup</h4>
+                <p>Your brand brought online - website, social profiles, and any other digital touchpoints set up with a unified, professional look and feel.</p>
+              </article>
+              <article class="card" data-reveal>
+                <svg class="feature-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 13h24v6H12zM12 25h16v6H12zM12 37h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <h4>Social Media Structure</h4>
+                <p>Bio copy, highlight covers, profile optimisation, and a content framework that keeps your brand consistent from day one.</p>
+              </article>
+            </div>
+
+            <div class="note-block cta-spacer" data-reveal>
+              <p>Branding is a fully custom engagement. We discuss your specific situation before scoping the work.</p>
+            </div>
+
+            <div class="cta-spacer" data-reveal>
+              <a class="btn" href="contact.html">Book a Brand Consultation</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-strip">
+          <div class="container cta-strip-inner" data-reveal>
+            <div>
+              <h3>Not sure which service you need? Let's figure it out together.</h3>
+            </div>
+            <a class="btn" href="contact.html">Start a Conversation</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-top">
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+            <p>Think your brand. Think digital. Think MarvsTech.</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-title">Navigate</div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="footer-contact">
+            <div class="footer-title">Contact</div>
+            <a href="mailto:marvstechhq@gmail.com">marvstechhq@gmail.com</a>
+            <a href="tel:+2348034953157">+234 803 495 3157</a>
+            <div class="footer-social">
+              <a class="social-link social-link--instagram" href="https://www.instagram.com/marvs.tech?igsh=MXc1bWZhanFrd2Vx&utm_source=qr" target="_blank" aria-label="MarvsTech on Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+              <a class="social-link social-link--facebook" href="https://www.facebook.com/share/1BCJtEY8v8/?mibextid=wwXIfr" target="_blank"  aria-label="MarvsTech on Facebook"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+              <a class="social-link social-link--tiktok" href="#" aria-label="MarvsTech on TikTok"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 4c.7 2 2.1 3.5 4.2 4v3.2c-1.5-.1-2.9-.6-4.2-1.4V15a5 5 0 1 1-5-5c.5 0 .9.1 1.3.2v3.3a2.3 2.3 0 1 0 1.4 2.1V4h2.3Z" fill="currentColor"/></svg></a>
+              <a class="social-link social-link--linkedin" href="#" aria-label="MarvsTech on LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 9v8M7 6.5v.1M11 17v-5a3 3 0 0 1 6 0v5M3.5 9h3V17h-3V9ZM11 9h3v1.4A4 4 0 0 1 17.5 9c2.1 0 3.5 1.4 3.5 4.2V17h-3v-3.4c0-1.2-.4-2.1-1.6-2.1s-2 1-2 2.3V17h-3V9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="social-link social-link--x" href="#" aria-label="MarvsTech on X"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5h3.8l3.6 5.3L16.9 5H19l-5.5 6.6L19 19h-3.8l-3.9-5.7L6.4 19H4.3l5.8-6.9L5 5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p>© 2026 MarvsTech. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <div class="whatsapp-float">
+        <div class="whatsapp-ring" aria-hidden="true"></div>
+        <a class="whatsapp-link" href="https://wa.me/2348034953157" target="_blank" rel="noreferrer" aria-label="Chat with us on WhatsApp">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.5c0 4.7-3.8 8.5-8.5 8.5-1.5 0-3-.4-4.2-1.1L3 20l1.2-4.1A8.4 8.4 0 0 1 3 11.5C3 6.8 6.8 3 11.5 3S20 6.8 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 9.2c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .4-.1.6l-.3.4c-.1.1-.2.2-.1.4.3.6 1 1.6 2.3 2.2.2.1.3 0 .4-.1l.5-.6c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.5v.4c0 .2-.1.5-.4.7-.4.3-1 .4-1.5.3-.8-.1-1.8-.5-3.1-1.7-1.5-1.3-2.4-2.8-2.7-3.7-.2-.6-.1-1.2.1-1.5.1-.2.3-.4.5-.4Z" fill="currentColor"/></svg>
+        </a>
+        <div class="whatsapp-tooltip">Chat with us</div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

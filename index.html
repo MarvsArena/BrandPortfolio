@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MarvsTech builds premium websites, apps, and digital support systems for businesses ready to grow online with clarity and structure.">
+    <meta property="og:title" content="MarvsTech | Premium Digital Solutions Agency">
+    <meta property="og:description" content="We build websites, applications, and digital systems that help brands build, manage, and grow with confidence.">
+    <title>MarvsTech | Premium Digital Solutions Agency</title>
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("marvstech-theme");
+          document.documentElement.setAttribute("data-theme", savedTheme === "light" ? "light" : "dark");
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="container nav-shell">
+          <a class="brand-link" href="index.html" aria-label="MarvsTech home">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+          </a>
+
+          <nav class="nav-desktop" aria-label="Primary navigation">
+            <ul class="nav-list">
+              <li><a class="nav-link active" href="index.html">Home</a></li>
+              <li><a class="nav-link" href="services.html">Services</a></li>
+              <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              <li><a class="nav-link" href="about.html">About</a></li>
+              <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-tools">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+              <span class="theme-icon theme-icon--sun" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M12 2.8v2.4M12 18.8v2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M2.8 12h2.4M18.8 12h2.4M5.2 18.8l1.7-1.7M17.1 6.9l1.7-1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="theme-icon theme-icon--moon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M20 14.2A8.5 8.5 0 0 1 9.8 4 8.5 8.5 0 1 0 20 14.2Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+            <a class="btn nav-cta" href="contact.html">Start a Project</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-drawer">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <div class="mobile-drawer" id="mobile-drawer">
+        <div class="mobile-panel">
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link active" href="index.html">Home</a></li>
+            <li><a class="mobile-nav-link" href="services.html">Services</a></li>
+            <li><a class="mobile-nav-link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="mobile-nav-link" href="about.html">About</a></li>
+            <li><a class="mobile-nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <a class="btn" href="contact.html">Start a Project</a>
+        </div>
+      </div>
+
+      <main>
+        <!-- Hero -->
+        <section class="hero">
+          <canvas class="hero-canvas" data-particle-canvas aria-hidden="true"></canvas>
+          <div class="container hero-overlay">
+            <div class="hero-content" data-reveal>
+              <div class="eyebrow">Digital Solutions Agency</div>
+              <div class="hero-title">
+                <h1>Build. Manage. Grow</h1>
+                <h1><span class="word-swap" data-word-swap>your website.</span></h1>
+              </div>
+              <p class="hero-copy">
+                We help businesses create structured digital systems from custom websites and mobile applications to social media management and operational support. Everything built with precision, delivered with accountability.
+              </p>
+              <div class="button-row hero-actions">
+                <a class="btn" href="contact.html">Get Started</a>
+                <a class="btn-outline" href="portfolio.html">View Our Work</a>
+              </div>
+
+              <div class="hero-metrics">
+                <article class="metric-card" data-reveal data-reveal-delay="1">
+                  <strong>Web</strong>
+                  <span>High-converting websites and storefronts built around real business goals.</span>
+                </article>
+                <article class="metric-card" data-reveal data-reveal-delay="2">
+                  <strong>Apps</strong>
+                  <span>Product-focused mobile experiences planned with scalability from the start.</span>
+                </article>
+                <article class="metric-card" data-reveal data-reveal-delay="3">
+                  <strong>Brand</strong>
+                  <span>Digital presence design that gives your business a clearer, sharper identity.</span>
+                </article>
+                <article class="metric-card" data-reveal data-reveal-delay="4">
+                  <strong>Support</strong>
+                  <span>Operational and visibility support that keeps your digital systems working daily.</span>
+                </article>
+              </div>
+            </div>
+          </div>
+          <a class="scroll-indicator" href="#what-we-do" aria-label="Scroll to what we do">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- What We Do -->
+        <section class="section section-soft" id="what-we-do">
+          <div class="container">
+            <div class="section-header" data-reveal>
+              <div class="eyebrow">What We Do</div>
+              <h2>Everything your business needs online.</h2>
+              <p class="lead">MarvsTech works across the digital systems businesses rely on most: websites, mobile products, operational support, and brand structure that keeps everything consistent.</p>
+            </div>
+
+            <div class="grid-3">
+              <article class="card" data-reveal data-reveal-delay="1">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                  <rect x="6" y="10" width="36" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                  <path d="M14 38h20M20 34l-2 4m12-4 2 4M16 18h16M16 24h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h3>Web Development</h3>
+                <p>We design and develop clean, functional, and scalable websites tailored to your business goals. Every build is structured for usability, credibility, and measurable growth from day one.</p>
+                <a class="learn-link" href="services.html#service-web">Learn more <span aria-hidden="true">→</span></a>
+              </article>
+
+              <article class="card" data-reveal data-reveal-delay="2">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                  <rect x="14" y="5" width="20" height="38" rx="4" stroke="currentColor" stroke-width="2"/>
+                  <path d="M22 10h4M21 37h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M18 16h12v14H18z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <h3>App Development</h3>
+                <p>We build custom mobile applications designed around actual user behaviour, clear feature priorities, and long-term scalability. The result is not just an app that launches, but an app that holds up.</p>
+                <a class="learn-link" href="services.html#service-app">Learn more <span aria-hidden="true">→</span></a>
+              </article>
+
+              <article class="card" data-reveal data-reveal-delay="3">
+                <svg class="service-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                  <circle cx="18" cy="20" r="5" stroke="currentColor" stroke-width="2"/>
+                  <path d="M9 34c1.6-4.2 5.2-7 9-7s7.4 2.8 9 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M32 15h9M36.5 10.5v9M30 31h13M36.5 26.5v9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h3>Business Support</h3>
+                <p>From social media management to virtual assistance and project coordination, we help businesses operate with more consistency and less friction behind the scenes.</p>
+                <a class="learn-link" href="services.html#service-support">Learn more <span aria-hidden="true">→</span></a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Why MarvsTech -->
+        <section class="section section-dark">
+          <div class="container">
+            <div class="section-header" data-reveal>
+              <div class="eyebrow">Why MarvsTech</div>
+              <h2>Built for clarity. Delivered with depth.</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-item" data-reveal data-reveal-delay="1">
+                <div class="feature-number">01</div>
+                <h3>Structure Over Everything</h3>
+                <p>Every project at MarvsTech starts with a plan, not just a brief. We map deliverables, define timelines, and set expectations before a single line of code is written. You always know what's being built, why, and when it'll be done.</p>
+              </article>
+
+              <article class="feature-item" data-reveal data-reveal-delay="2">
+                <div class="feature-number">02</div>
+                <h3>One Point of Contact, Zero Confusion</h3>
+                <p>You deal with MarvsTech directly. We coordinate every specialist, manage every deliverable, and handle all internal communication on your behalf. You get a clean, professional experience from start to finish.</p>
+              </article>
+
+              <article class="feature-item" data-reveal data-reveal-delay="3">
+                <div class="feature-number">03</div>
+                <h3>Built Around Your Goals</h3>
+                <p>We don't slot your business into a template. Every solution is designed around your specific audience, objectives, and growth stage so what we build actually moves the needle.</p>
+              </article>
+
+              <article class="feature-item" data-reveal data-reveal-delay="4">
+                <div class="feature-number">04</div>
+                <h3>Accountable at Every Stage</h3>
+                <p>Clear communication is not optional here. You receive regular updates, milestone confirmations, and honest timelines. If something changes, you're the first to know, not the last.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Featured Work -->
+        <section class="section section-soft">
+          <div class="container">
+            <div class="section-header" data-reveal>
+              <div class="eyebrow">Featured Work</div>
+              <h2>Structured solutions, built for real businesses.</h2>
+              <p class="lead">Here are some of the solutions we've built for businesses and individuals, each one tailored to a specific growth stage, audience, and operating need.</p>
+            </div>
+
+            <div class="project-grid">
+              <article class="card project-card" data-reveal data-reveal-delay="1">
+                <div class="project-image-wrap">
+                  <img src="assets/projects/omdhairville.png" alt="Screenshot preview of OMDHairville e-commerce website">
+                </div>
+                <div class="project-content">
+                  <span class="pill pill-pink">Web Development</span>
+                  <h3>OMDHairville</h3>
+                  <p>A premium full-stack e-commerce platform for wig and hair product discovery, customization, and purchase. It combines polished storefront presentation with the backend control needed to manage products, orders, and business growth efficiently.</p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">MongoDB</span>
+                    <span class="stack-tag">Node.js</span>
+                  </div>
+                  <a class="text-link project-action" href="https://omdhairville.vercel.app/" target="_blank" rel="noreferrer">View Project <span aria-hidden="true">→</span></a>
+                </div>
+              </article>
+
+              <article class="card project-card" data-reveal data-reveal-delay="2">
+                <div class="project-image-wrap">
+                  <img src="assets/projects/kickshub.png" alt="Screenshot preview of KicksHub online store">
+                </div>
+                <div class="project-content">
+                  <span class="pill pill-pink">Web Development</span>
+                  <h3>KicksHub</h3>
+                  <p>A lightweight e-commerce site built for a small business that needed to get online quickly without a heavy backend. Products are presented cleanly, and the buying flow moves directly into WhatsApp for fast order handling and easy customer conversation.</p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                    <span class="stack-tag">JavaScript</span>
+                  </div>
+                  <a class="text-link project-action" href="https://kickshubstore.vercel.app/" target="_blank" rel="noreferrer">View Project <span aria-hidden="true">→</span></a>
+                </div>
+              </article>
+
+              <article class="card project-card" data-reveal data-reveal-delay="3">
+                <div class="project-image-wrap">
+                  <img src="assets/projects/lushnest.png" alt="Screenshot preview of Lushnest wellness and spa website">
+                </div>
+                <div class="project-content">
+                  <span class="pill pill-pink">Web Development</span>
+                  <h3>Lushnest</h3>
+                  <p>A wellness hub and spa website designed to feel calm, refined, and trustworthy from the first scroll. The digital experience mirrors the brand's atmosphere while making service discovery and conversion paths clear.</p>
+                  <div class="stack-tags">
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                    <span class="stack-tag">JavaScript</span>
+                  </div>
+                  <a class="text-link project-action" href="https://lushnest.netlify.app/" target="_blank" rel="noreferrer">View Project <span aria-hidden="true">→</span></a>
+                </div>
+              </article>
+            </div>
+
+            <div class="center-cta" data-reveal>
+              <a class="btn-outline" href="portfolio.html">View All Work</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- CTA -->
+        <section class="cta-band">
+          <div class="container">
+            <div class="section-header" data-reveal>
+              <div class="eyebrow">Start Here</div>
+              <h2>Ready to build your digital presence?</h2>
+              <p class="lead">When the goal is long-term growth, every part of your digital presence needs to work together. We build that structure with you and for you.</p>
+            </div>
+            <a class="btn" href="contact.html" data-reveal data-reveal-delay="1">Start a Project</a>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container footer-top">
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+            <p>Think your brand. Think digital. Think MarvsTech.</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-title">Navigate</div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="footer-contact">
+            <div class="footer-title">Contact</div>
+            <a href="mailto:marvstechhq@gmail.com">marvstechhq@gmail.com</a>
+            <a href="tel:+2348034953157">+234 803 495 3157</a>
+            <div class="footer-social">
+              <a class="social-link social-link--instagram" href="https://www.instagram.com/marvs.tech?igsh=MXc1bWZhanFrd2Vx&utm_source=qr" target="_blank" aria-label="MarvsTech on Instagram">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+              </a>
+              <a class="social-link social-link--facebook" href="https://www.facebook.com/share/1BCJtEY8v8/?mibextid=wwXIfr" target="_blank" aria-label="MarvsTech on Facebook">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="social-link social-link--tiktok" href="#" aria-label="MarvsTech on TikTok">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 4c.7 2 2.1 3.5 4.2 4v3.2c-1.5-.1-2.9-.6-4.2-1.4V15a5 5 0 1 1-5-5c.5 0 .9.1 1.3.2v3.3a2.3 2.3 0 1 0 1.4 2.1V4h2.3Z" fill="currentColor"/></svg>
+              </a>
+              <a class="social-link social-link--linkedin" href="#" aria-label="MarvsTech on LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 9v8M7 6.5v.1M11 17v-5a3 3 0 0 1 6 0v5M3.5 9h3V17h-3V9ZM11 9h3v1.4A4 4 0 0 1 17.5 9c2.1 0 3.5 1.4 3.5 4.2V17h-3v-3.4c0-1.2-.4-2.1-1.6-2.1s-2 1-2 2.3V17h-3V9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="social-link social-link--x" href="#" aria-label="MarvsTech on X">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5h3.8l3.6 5.3L16.9 5H19l-5.5 6.6L19 19h-3.8l-3.9-5.7L6.4 19H4.3l5.8-6.9L5 5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p>© 2026 MarvsTech. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <!-- WhatsApp -->
+      <div class="whatsapp-float">
+        <div class="whatsapp-ring" aria-hidden="true"></div>
+        <a class="whatsapp-link" href="https://wa.me/2348034953157" target="_blank" rel="noreferrer" aria-label="Chat with us on WhatsApp">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 11.5c0 4.7-3.8 8.5-8.5 8.5-1.5 0-3-.4-4.2-1.1L3 20l1.2-4.1A8.4 8.4 0 0 1 3 11.5C3 6.8 6.8 3 11.5 3S20 6.8 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M8.7 9.2c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .4-.1.6l-.3.4c-.1.1-.2.2-.1.4.3.6 1 1.6 2.3 2.2.2.1.3 0 .4-.1l.5-.6c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.5v.4c0 .2-.1.5-.4.7-.4.3-1 .4-1.5.3-.8-.1-1.8-.5-3.1-1.7-1.5-1.3-2.4-2.8-2.7-3.7-.2-.6-.1-1.2.1-1.5.1-.2.3-.4.5-.4Z" fill="currentColor"/>
+          </svg>
+        </a>
+        <div class="whatsapp-tooltip">Chat with us</div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

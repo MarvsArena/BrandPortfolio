@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact MarvsTech for web development, app development, branding, and digital support services.">
+    <meta property="og:title" content="Contact MarvsTech | Let's Work Together">
+    <meta property="og:description" content="Reach out to MarvsTech and start a project built to last with structure, clarity, and premium execution.">
+    <title>Contact MarvsTech</title>
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("marvstech-theme");
+          document.documentElement.setAttribute("data-theme", savedTheme === "light" ? "light" : "dark");
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-shell">
+          <a class="brand-link" href="index.html" aria-label="MarvsTech home">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+          </a>
+
+          <nav class="nav-desktop" aria-label="Primary navigation">
+            <ul class="nav-list">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li><a class="nav-link" href="services.html">Services</a></li>
+              <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              <li><a class="nav-link" href="about.html">About</a></li>
+              <li><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-tools">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+              <span class="theme-icon theme-icon--sun" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.8v2.4M12 18.8v2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M2.8 12h2.4M18.8 12h2.4M5.2 18.8l1.7-1.7M17.1 6.9l1.7-1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              <span class="theme-icon theme-icon--moon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M20 14.2A8.5 8.5 0 0 1 9.8 4 8.5 8.5 0 1 0 20 14.2Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <a class="btn nav-cta" href="contact.html">Start a Project</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-drawer">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <div class="mobile-drawer" id="mobile-drawer">
+        <div class="mobile-panel">
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link" href="index.html">Home</a></li>
+            <li><a class="mobile-nav-link" href="services.html">Services</a></li>
+            <li><a class="mobile-nav-link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="mobile-nav-link" href="about.html">About</a></li>
+            <li><a class="mobile-nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+          <a class="btn" href="contact.html">Start a Project</a>
+        </div>
+      </div>
+
+      <main>
+        <section class="page-hero">
+          <div class="container">
+            <div class="section-header">
+              <div class="eyebrow" data-reveal>Contact</div>
+              <h1 data-reveal data-reveal-delay="1">Let's Work Together</h1>
+              <p class="lead" data-reveal data-reveal-delay="2">Have a project in mind? Reach out and let's build something that lasts.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="section section-dark">
+          <div class="container contact-grid">
+            <div class="card contact-card" data-reveal>
+              <div class="copy-stack">
+                <div class="eyebrow">Project Inquiry</div>
+                <h2>Tell us what you're building.</h2>
+                <p>Whether you already know exactly what you need or you're still trying to shape the right next move, this is the best place to start. The more context you share, the more precise we can be when we respond.</p>
+              </div>
+
+              <form class="contact-form" data-contact-form data-service-id="service_6irof7m" data-template-id="service_6irof7m" novalidate>
+                <div class="field-row">
+                  <label for="full-name">Full Name</label>
+                  <input id="full-name" name="full-name" type="text" data-required>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+
+                <div class="field-row">
+                  <label for="email-address">Email Address</label>
+                  <input id="email-address" name="email-address" type="email" data-required>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+
+                <div class="field-row">
+                  <label for="business-name">Business Name</label>
+                  <input id="business-name" name="business-name" type="text" data-required>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+
+                <div class="field-row">
+                  <label for="service-needed">Service Needed</label>
+                  <select id="service-needed" name="service-needed" data-required>
+                    <option>— Select a service —</option>
+                    <option>Web Development</option>
+                    <option>App Development</option>
+                    <option>Virtual Assistance</option>
+                    <option>Social Media Management</option>
+                    <option>Project &amp; Product Management</option>
+                    <option>Branding</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+
+                <!-- <div class="field-row">
+                  <label for="budget-range">Budget Range</label>
+                  <select id="budget-range" name="budget-range" data-required>
+                    <option>— Select a range —</option>
+                    <option>Under ₦100,000</option>
+                    <option>₦100,000 – ₦300,000</option>
+                    <option>₦300,000 – ₦500,000</option>
+                    <option>₦500,000 – ₦1,000,000</option>
+                    <option>Above ₦1,000,000</option>
+                    <option>Prefer not to say</option>
+                  </select>
+                  <div class="field-error" aria-live="polite"></div>
+                </div> -->
+
+                <div class="field-row">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" data-required></textarea>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+
+                <button class="btn contact-submit" type="submit">Send Message</button>
+              </form>
+
+              <div class="form-success" aria-live="polite">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <div>
+                  <strong class="text-white">Your message has been received.</strong>
+                  <p>We'll get back to you within 24 hours.</p>
+                </div>
+              </div>
+
+              <div class="form-failure" aria-live="polite"></div>
+            </div>
+
+            <aside class="card contact-info" data-reveal data-reveal-delay="1">
+              <div class="copy-stack">
+                <div class="eyebrow">Get in Touch</div>
+                <h2>Reach us directly.</h2>
+                <p>If your project is time-sensitive or you prefer conversation first, reach out directly through WhatsApp or email and we'll take it from there.</p>
+              </div>
+
+              <a class="contact-link" href="https://wa.me/2348034953157" target="_blank" rel="noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.5c0 4.7-3.8 8.5-8.5 8.5-1.5 0-3-.4-4.2-1.1L3 20l1.2-4.1A8.4 8.4 0 0 1 3 11.5C3 6.8 6.8 3 11.5 3S20 6.8 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 9.2c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .4-.1.6l-.3.4c-.1.1-.2.2-.1.4.3.6 1 1.6 2.3 2.2.2.1.3 0 .4-.1l.5-.6c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.5v.4c0 .2-.1.5-.4.7-.4.3-1 .4-1.5.3-.8-.1-1.8-.5-3.1-1.7-1.5-1.3-2.4-2.8-2.7-3.7-.2-.6-.1-1.2.1-1.5.1-.2.3-.4.5-.4Z" fill="currentColor"/></svg>
+                <span>+234 803 495 3157</span>
+              </a>
+
+              <a class="contact-link" href="mailto:marvstechhq@gmail.com">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16v10H4z" stroke="currentColor" stroke-width="1.8"/><path d="m4 8 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>marvstechhq@gmail.com</span>
+              </a>
+
+              <p class="response-note">We typically respond within 24 hours on business days.</p>
+
+              <div class="social-links">
+                <a class="social-link social-link--instagram" href="https://www.instagram.com/marvs.tech?igsh=MXc1bWZhanFrd2Vx&utm_source=qr" target="_blank" aria-label="MarvsTech on Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+                <a class="social-link social-link--facebook" href="https://www.facebook.com/share/1BCJtEY8v8/?mibextid=wwXIfr" target="_blank" aria-label="MarvsTech on Facebook"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+                <a class="social-link social-link--tiktok" href="#" aria-label="MarvsTech on TikTok"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 4c.7 2 2.1 3.5 4.2 4v3.2c-1.5-.1-2.9-.6-4.2-1.4V15a5 5 0 1 1-5-5c.5 0 .9.1 1.3.2v3.3a2.3 2.3 0 1 0 1.4 2.1V4h2.3Z" fill="currentColor"/></svg></a>
+                <a class="social-link social-link--linkedin" href="#" aria-label="MarvsTech on LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 9v8M7 6.5v.1M11 17v-5a3 3 0 0 1 6 0v5M3.5 9h3V17h-3V9ZM11 9h3v1.4A4 4 0 0 1 17.5 9c2.1 0 3.5 1.4 3.5 4.2V17h-3v-3.4c0-1.2-.4-2.1-1.6-2.1s-2 1-2 2.3V17h-3V9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a class="social-link social-link--x" href="#" aria-label="MarvsTech on X"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5h3.8l3.6 5.3L16.9 5H19l-5.5 6.6L19 19h-3.8l-3.9-5.7L6.4 19H4.3l5.8-6.9L5 5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="section section-soft">
+          <div class="container">
+            <div class="section-header" data-reveal>
+              <div class="eyebrow">FAQ</div>
+              <h2>Common Questions</h2>
+            </div>
+
+            <div class="faq-list" data-reveal data-reveal-delay="1">
+              <div class="faq-item">
+                <button class="faq-question" type="button" data-faq-question aria-expanded="false">
+                  <span>How long does a project take?</span>
+                  <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer-inner">
+                    <p>Timelines depend on the scope and complexity of the project. A standard e-commerce website typically takes 2-4 weeks. App development projects vary significantly. Your exact timeline will be confirmed in your proposal before work begins.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button" data-faq-question aria-expanded="false">
+                  <span>Do I need to provide my own hosting and domain?</span>
+                  <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer-inner">
+                    <p>Yes. Hosting and domain registration are third-party costs that are the client's responsibility. We'll advise you on the best options for your project and can handle the setup process on your behalf once your accounts are created.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button" data-faq-question aria-expanded="false">
+                  <span>How does payment work?</span>
+                  <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer-inner">
+                    <p>We operate on a 60/40 payment structure - 60% is required upfront before work begins, and the remaining 40% is due upon project completion and delivery. This applies to all projects.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button" data-faq-question aria-expanded="false">
+                  <span>Will I be able to manage my website after it's delivered?</span>
+                  <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer-inner">
+                    <p>Yes. Every project handover includes a walkthrough session covering how to manage your website or dashboard. We also provide documentation so you have a reference going forward.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button" data-faq-question aria-expanded="false">
+                  <span>What happens if I need changes after the project is delivered?</span>
+                  <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="faq-answer">
+                  <div class="faq-answer-inner">
+                    <p>Minor corrections discovered within 7 days of delivery are addressed at no additional cost. For new features, redesigns, or ongoing updates, we'd put together a new proposal for that scope of work.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-top">
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="MarvsTech logo">
+            <p>Think your brand. Think digital. Think MarvsTech.</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-title">Navigate</div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="footer-contact">
+            <div class="footer-title">Contact</div>
+            <a href="mailto:marvstechhq@gmail.com">marvstechhq@gmail.com</a>
+            <a href="tel:+2348034953157">+234 803 495 3157</a>
+            <div class="footer-social">
+              <a class="social-link social-link--instagram" href="https://www.instagram.com/marvs.tech?igsh=MXc1bWZhanFrd2Vx&utm_source=qr" target="_blank" aria-label="MarvsTech on Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+              <a class="social-link social-link--facebook" href="https://www.facebook.com/share/1BCJtEY8v8/?mibextid=wwXIfr" target="_blank" aria-label="MarvsTech on Facebook"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+              <a class="social-link social-link--tiktok" href="#" aria-label="MarvsTech on TikTok"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 4c.7 2 2.1 3.5 4.2 4v3.2c-1.5-.1-2.9-.6-4.2-1.4V15a5 5 0 1 1-5-5c.5 0 .9.1 1.3.2v3.3a2.3 2.3 0 1 0 1.4 2.1V4h2.3Z" fill="currentColor"/></svg></a>
+              <a class="social-link social-link--linkedin" href="#" aria-label="MarvsTech on LinkedIn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 9v8M7 6.5v.1M11 17v-5a3 3 0 0 1 6 0v5M3.5 9h3V17h-3V9ZM11 9h3v1.4A4 4 0 0 1 17.5 9c2.1 0 3.5 1.4 3.5 4.2V17h-3v-3.4c0-1.2-.4-2.1-1.6-2.1s-2 1-2 2.3V17h-3V9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="social-link social-link--x" href="#" aria-label="MarvsTech on X"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5h3.8l3.6 5.3L16.9 5H19l-5.5 6.6L19 19h-3.8l-3.9-5.7L6.4 19H4.3l5.8-6.9L5 5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p>© 2026 MarvsTech. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <div class="whatsapp-float">
+        <div class="whatsapp-ring" aria-hidden="true"></div>
+        <a class="whatsapp-link" href="https://wa.me/2348034953157" target="_blank" rel="noreferrer" aria-label="Chat with us on WhatsApp">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.5c0 4.7-3.8 8.5-8.5 8.5-1.5 0-3-.4-4.2-1.1L3 20l1.2-4.1A8.4 8.4 0 0 1 3 11.5C3 6.8 6.8 3 11.5 3S20 6.8 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 9.2c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3 0 .4-.1.6l-.3.4c-.1.1-.2.2-.1.4.3.6 1 1.6 2.3 2.2.2.1.3 0 .4-.1l.5-.6c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.5v.4c0 .2-.1.5-.4.7-.4.3-1 .4-1.5.3-.8-.1-1.8-.5-3.1-1.7-1.5-1.3-2.4-2.8-2.7-3.7-.2-.6-.1-1.2.1-1.5.1-.2.3-.4.5-.4Z" fill="currentColor"/></svg>
+        </a>
+        <div class="whatsapp-tooltip">Chat with us</div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
